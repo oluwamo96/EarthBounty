@@ -1,0 +1,163 @@
+/* Global styles */
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+  margin: 0;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header */
+
+header {
+  background-color: #343a40;
+  color: #fff;
+  padding: 20px 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+nav {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #fff;
+  color: #007bff;
+}
+
+/* Banner */
+
+#banner {
+  background-color: #f8f9fa;
+  padding: 100px 0;
+  text-align: center;
+}
+
+#banner h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  color: #007bff;
+}
+
+/* Forms */
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+form select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+form button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button[type="submit"]:hover {
+  background-color: #0069d9;
+}
+
+/* User Info */
+
+#user-info {
+  padding: 50px 0;
+}
+
+#user-info h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+#user-info p {
+  margin-bottom: 10px;
+}
+
+#user-info .profile-image {
+  display: block;
+  max-width: 200px;
+  margin-bottom: 20px;
+}
+
+/* Information and Bounty Display */
+
+#information-display, #bounty-display {
+  padding: 50px 0;
+}
+
+#information-display h2, #bounty-display h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+#information-display div, #bounty-display div {
+  margin-bottom
